@@ -31,7 +31,7 @@ console.log("third");
 
 fs.writeFileSync("write.txt", "HelloWorld");
 
-fs.writeFile("./write.txt"," Hello saurav",{flag:"a"},(err)=>{
+fs.writeFile("write.txt"," Hello saurav",{flag:"a"},(err)=>{
   if(err){
     console.log(err);
   }
